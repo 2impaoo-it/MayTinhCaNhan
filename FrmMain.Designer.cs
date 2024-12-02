@@ -1,6 +1,6 @@
 ﻿namespace MayTinhCaNhan
 {
-    partial class FrmMain
+    partial class frmMayTinh
     {
         /// <summary>
         /// Required designer variable.
@@ -64,13 +64,13 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(12, 129);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 25);
+            this.label2.Size = new System.Drawing.Size(103, 25);
             this.label2.TabIndex = 1;
-            this.label2.Text = "First number:";
+            this.label2.Text = "Number 1:";
             // 
             // txtFirstNum
             // 
-            this.txtFirstNum.Location = new System.Drawing.Point(184, 112);
+            this.txtFirstNum.Location = new System.Drawing.Point(131, 112);
             this.txtFirstNum.Multiline = true;
             this.txtFirstNum.Name = "txtFirstNum";
             this.txtFirstNum.Size = new System.Drawing.Size(390, 42);
@@ -80,7 +80,7 @@
             // 
             // txtSecondNum
             // 
-            this.txtSecondNum.Location = new System.Drawing.Point(184, 177);
+            this.txtSecondNum.Location = new System.Drawing.Point(131, 177);
             this.txtSecondNum.Multiline = true;
             this.txtSecondNum.Name = "txtSecondNum";
             this.txtSecondNum.Size = new System.Drawing.Size(390, 42);
@@ -95,13 +95,13 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(12, 194);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(157, 25);
+            this.label3.Size = new System.Drawing.Size(103, 25);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Second number:";
+            this.label3.Text = "Number 2:";
             // 
             // txtResult
             // 
-            this.txtResult.Location = new System.Drawing.Point(184, 257);
+            this.txtResult.Location = new System.Drawing.Point(160, 372);
             this.txtResult.Multiline = true;
             this.txtResult.Name = "txtResult";
             this.txtResult.Size = new System.Drawing.Size(390, 42);
@@ -112,17 +112,17 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(12, 274);
+            this.label4.Location = new System.Drawing.Point(66, 389);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(72, 25);
+            this.label4.Size = new System.Drawing.Size(78, 25);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Result:";
+            this.label4.Text = "Answer";
             // 
             // btnCong
             // 
             this.btnCong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCong.Location = new System.Drawing.Point(85, 341);
+            this.btnCong.Location = new System.Drawing.Point(63, 269);
             this.btnCong.Name = "btnCong";
             this.btnCong.Size = new System.Drawing.Size(75, 66);
             this.btnCong.TabIndex = 4;
@@ -135,7 +135,7 @@
             // 
             this.btnTru.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTru.Location = new System.Drawing.Point(196, 341);
+            this.btnTru.Location = new System.Drawing.Point(184, 269);
             this.btnTru.Name = "btnTru";
             this.btnTru.Size = new System.Drawing.Size(75, 66);
             this.btnTru.TabIndex = 4;
@@ -148,7 +148,7 @@
             // 
             this.btnNhan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNhan.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNhan.Location = new System.Drawing.Point(304, 341);
+            this.btnNhan.Location = new System.Drawing.Point(331, 269);
             this.btnNhan.Name = "btnNhan";
             this.btnNhan.Size = new System.Drawing.Size(75, 66);
             this.btnNhan.TabIndex = 4;
@@ -161,7 +161,7 @@
             // 
             this.btnChia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChia.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChia.Location = new System.Drawing.Point(416, 341);
+            this.btnChia.Location = new System.Drawing.Point(475, 269);
             this.btnChia.Name = "btnChia";
             this.btnChia.Size = new System.Drawing.Size(75, 66);
             this.btnChia.TabIndex = 4;
@@ -178,7 +178,7 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // FrmMain
+            // frmMayTinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -196,8 +196,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.IndianRed;
-            this.Name = "FrmMain";
-            this.Text = "Form1";
+            this.Name = "frmMayTinh";
+            this.Text = "Máy Tính Cá Nhân";
             ((System.ComponentModel.ISupportInitialize)(this.errNhapSo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);

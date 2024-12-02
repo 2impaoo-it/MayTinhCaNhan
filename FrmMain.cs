@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MayTinhCaNhan
 {
-    public partial class FrmMain : Form
+    public partial class frmMayTinh : Form
     {   
-        public FrmMain()
+        public frmMayTinh()
         {
             //Console.OutputEncoding = Encoding.UTF8;
             InitializeComponent();
@@ -20,7 +20,7 @@ namespace MayTinhCaNhan
 
         private void btnCaculator_Click(object sender, EventArgs e)
         {
-            if(errNhapSo.GetError(txtFirstNum) != string.Empty || (errNhapSo.GetError(txtSecondNum) != string.Empty))
+            if(txtFirstNum.Text == string.Empty || (txtSecondNum.Text == string.Empty))
             {
                 MessageBox.Show("Vui lòng kiểm tra lại thông tin đã nhập", "Thông báo");
                 return;
